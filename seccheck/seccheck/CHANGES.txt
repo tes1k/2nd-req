@@ -1,0 +1,49 @@
+    The list of CHANGES introduced in v0.0.1
+
+- Split up sec_check script into submodules to ease long-term maintenance.
+
+- Created a new NVD::Client module in /lib/NVD directory.
+
+- Created a new OSV::Client module in lib/OSV directory.
+
+- Created a new Dep::Check module in lib/Dep directory.
+
+- Created a new Manifest::File module in lib/Manifest directory.
+
+- Created a new Doc::Cmd module in lib/Doc directory.
+
+- Created a new Util::IO module in lib/Util directory.
+
+- Added README file.
+
+- Cleaned up and refactored sec_check.pl script quite a bit.
+
+- Added Perldoc documentation to each submodule.
+
+
+    The list of CHANGES introduced in v0.0.2
+
+- Removed function prototypes and transformed them to sane functions.
+
+- Fixed namespace bug in Dep::Check.
+
+- Improved embedded documentations.
+
+- Refactored most of the vodoo magic-like code.
+
+
+    The list of CHANGES introduced in v0.0.3
+
+- Added new functionality for "writing the program output to separate log files".
+
+- Fixed a runtime bug in Manifest/File.pm module which caused a silent error while connecting to NVD API.
+
+- Refactored Manifest/File.pm and Util/IO.pm modules.
+
+- Improved embedded documentation.
+
+- More explicit function calls in sec_check.pl using "module namespaces".
+
+- Removed Doc/Cmd.pm module as the pods (embedded docs) already provide all the documentation needs.
+
+- Created Util/Cmd.pm module for managing command line I/O.
